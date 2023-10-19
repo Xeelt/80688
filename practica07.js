@@ -1,16 +1,15 @@
-const form = document.getElementById("form");
-
-let cargarComponentes = (leyenda, input1, input2)=>{
+const loginform = document.getElementById("formulario")
+const miFieldset = (legend, txt1, txt2) => {
     return `
-    <fieldset id="infPer">
-            <legend>${leyenda}</legend>
-            <label for="name">${input1} :</label>
-            <input type="text" name="name" id="name">
-            <label for="name">${input2} :</label>
-            <input type="email" name="name" id="email">
-        </fieldset>
+    <fieldset>
+        <legend>${legend}</legend>
+        <label for=${txt1}>${txt1}</label>
+        <input type="text" id=${txt1}>
+        <label for=${txt2}>${txt2}</label>
+        <input type="text" id=${txt2}>
+    </fieldset>
     `
 }
 
-form.insertAdjacentHTML("afterbegin", cargarComponentes("hola","prueba","2"))
-form.insertAdjacentHTML("afterbegin", cargarComponentes("hola","prueba","2"))
+loginform.innerHTML = miFieldset("Inf Personal", "nombre", "correo")
+loginform.innerHTML += miFieldset("Inf Direccion", "direccion", "ciudad")

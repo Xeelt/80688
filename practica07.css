@@ -1,41 +1,35 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
-body {
-    font-family: fantasy;
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1 {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
-form {
+form{
     box-shadow: 10px 20px 15px;
-    width: 400px;
-    border: 1px solid lightgray;
+    width: 300px;
+    border: 1px solid lightslategray;
     border-radius: 5px;
     margin: 0 auto;
     padding: 20px;
 }
-fieldset {
-    border: 1px solid lightgray;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-input {
+input{
     width: 100%;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid lightslategray;
 }
-#b {
+input[type="submit"]{
     color: white;
-    background-color: rgb(14, 13, 13);
+    background-color: blue;
 }
-label {
+label{
     display: block;
 }
