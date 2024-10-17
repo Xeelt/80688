@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     padding: 0;
     margin: 0;
@@ -50,3 +51,57 @@ font-family: Arial, Helvetica, sans-serif;
 margin-top: 4%;
 }
 
+=======
+body{
+    padding: 0;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form{
+    width: 30%;
+    height: auto;
+    margin: 1% 30%;
+    border-radius: 10px;
+    border:1px solid gray;
+    box-shadow: 18px 20px 20px black;
+}
+legend{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset{
+    width: 85%;
+    height: 14em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:4%;
+}
+label{
+    display: block;
+    font-size: 1.2em;
+    margin-top: 12px;
+}
+.input{
+    width: 99%;
+    display: block;
+    height: 3em;
+    /* margin-bottom: px; */
+    margin-top:10px;
+}
+#btnEnvia{
+background-color: blue;
+color: white;
+width: 95%;
+margin-left: 2%;
+border-radius: 10px;
+height: 3em;
+font-size: 1.1em;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 4%;
+}
+
+>>>>>>> 2fa217f5f274de509c5818ef87f12eb34fac1dab
